@@ -21,9 +21,11 @@ body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
+  background-color: #000000;
+  color: rgba(255, 255, 255, 0.87);
 }
 
-/* For the dinosaur game score display */
+/* For the score display */
 .score-display {
-  font-family: 'Press Start 2P', 'Courier New', monospace;
+  font-family: monospace;
 }
