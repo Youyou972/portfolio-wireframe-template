@@ -9,7 +9,7 @@ export default defineConfig({
     assetsDir: 'assets',
     emptyOutDir: true,
     sourcemap: false,
-    minify: 'terser',
+    minify: 'esbuild',
   },
   server: {
     port: 3000,
